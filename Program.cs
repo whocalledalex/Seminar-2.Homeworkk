@@ -19,18 +19,18 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-Console.WriteLine("Insert a number: ");
-string str = Console.ReadLine();
-int length = str.Length;
-if (length < 3)
-{
-    Console.WriteLine("There is no third digit");
-}
-else if (length >= 3)
-{
-    int result = Convert.ToInt32(str.Substring(0, 3));
-    Console.WriteLine(result%10);
-}
+// Console.WriteLine("Insert a number: ");
+// string str = Console.ReadLine();
+// int length = str.Length;
+// if (length < 3)
+// {
+//     Console.WriteLine("There is no third digit");
+// }
+// else if (length >= 3)
+// {
+//     int result = Convert.ToInt32(str.Substring(0, 3));
+//     Console.WriteLine(result%10);
+// }
 
 
 // Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую 
